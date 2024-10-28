@@ -54,7 +54,7 @@
 template <class T>
 class GAS_GMXXX {
   public:
-    GAS_GMXXX();
+    GAS_GMXXX(); 
     void begin(T& wire = Wire, uint8_t address = 0x08);
     void setAddress(uint8_t address = 0x08);
     void preheated();

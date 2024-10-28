@@ -1,4 +1,6 @@
 
+// https://github.com/ilkerya/Scent_Diffuser-Firmware.git
+
 #define uint8_t byte
 #define uint16_t unsigned int
 #define uint32_t unsigned long
@@ -61,7 +63,7 @@ struct DAQ{
   uint16_t Length;
   uint8_t SendBuf[DEFAULT_LENGTH];
   uint16_t CRC_Send;
-}DAQ;
+}DAQ; 
 
 struct Accelometer{
   float  x;

@@ -9,10 +9,10 @@
 
 
 #ifdef OLEDDISPLAY_EXISTS
-/*
+/*    
 #ifdef ESP32_ADAFRUIT
 //#define OLED_GND A2// 13
-//#define OLED_POWER A3//
+//#define OLED_POWER A3// 
 #define OLED_CS    21//1 IO_21
 #define OLED_RESET 17//2 IO_17
 #define OLED_DC    16//3 IO_16

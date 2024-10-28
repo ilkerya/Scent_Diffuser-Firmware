@@ -68,7 +68,7 @@ void loop() {
 */
        Gas += 0.1;
     if(Gas > 90)Gas = 70;
-
+ 
     DAC_Val_1++;
     DAC_Val_2--;
 

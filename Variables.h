@@ -148,7 +148,7 @@ struct
   bool SleepEnable = 0;
   uint8_t ValueTimer = 0; 
   bool ExpSensOnb =0;  
-  bool ExpSens1 =0;
+  bool ExpSens1 =0; 
   bool ExpSens2 =0;
   bool ExpSens3 =0;
   uint8_t SensorRollTimer = 0;
